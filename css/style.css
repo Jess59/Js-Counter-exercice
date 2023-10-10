@@ -1,0 +1,46 @@
+/*We remove the default margins and padding to define the size of each element ourselves.*/
+*{ 
+    margin:0;
+    padding:0;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    height: 100vh; /*pour prendre tout la hauteur disponible dans mon écran*/
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main > h1 {
+    line-height: 1;
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 0px 0px 12px;
+    color:#102A42;
+}
+
+#val { 
+    font-size: 6rem;
+    font-weight:bold;
+    color: #102A42;
+    font: 96px;
+}
+
+main  .btn button{
+    text-transform: uppercase;
+    color: #222222;
+    font: 14px arial;
+    margin: 8px;
+    padding: 6px 12px;
+    background: transparent;
+    border-radius: 20%;
+}
